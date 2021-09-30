@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'nanumsquare';
+}
+
+.black-nav {
+  background: black;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.content-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.list {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.checkbox-list {
+  position: absolute;
+  left: -30px;
+  top: 10px;
+  transform: scale(1.5);
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.color-notice {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
